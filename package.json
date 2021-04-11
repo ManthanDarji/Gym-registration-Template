@@ -1,0 +1,17 @@
+{
+  "name": "manthan",
+  "version": "1.0.0",
+  "description": "this is  a packege we created while styding and exploring nodejs and express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manthan darji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}

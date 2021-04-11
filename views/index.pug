@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Using plain html in pug</title> -->
+    <title>#{title}</title>
+    style 
+        include ../static/style.css
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/"> About</a></li>
+            <li><a href="/contact"> Contact Us</a></li>
+            <li><a href="/"> Services</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <h2>Enroll Gym membership on 60$  </h2>
+        <!-- <p>
+        | #{content} 
+        </p> -->
+            <!-- tHIS Using the plain html using pug. -->
+            <form action="/contact" method="get" id="contact">
+                <input type="text" name="name" id="name" placeholder="Enter your name"required>
+                <input type="number" name="age" id="age" placeholder="Enter your age"required>
+                <input type="text" name="gender" id="gender" placeholder="Enter your gender"required>
+                <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your Address"></textarea>
+                <textarea name="more"   id="more" cols="30" rows="10" placeholder="Enter about more..."></textarea>
+                <div class="btn_container">
+
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+    </div>
+</body>
+</html>
