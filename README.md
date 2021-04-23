@@ -9,6 +9,12 @@
 * css 
 * pug
 
+
+* screenshot
+
+![Capture](https://user-images.githubusercontent.com/81868489/115875077-79137280-a462-11eb-8fa3-41271966ee23.PNG)
+
+
 Contributing
 ==========
 Any kind of contributions are welcome.
